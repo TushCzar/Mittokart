@@ -1,5 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Mittokart!</h2>
+<h3>Coming soon!</h3>
 </body>
 </html>
