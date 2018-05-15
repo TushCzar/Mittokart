@@ -1,12 +1,14 @@
 package com.mittokart;
 
 import javax.persistence.EntityManager;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.mittokart.util.EMF;
 
+@WebServlet(name = "Test", value = "/test")
 public class Test extends HttpServlet {
 	@Override
 	  public void doGet(HttpServletRequest request, HttpServletResponse response) {
